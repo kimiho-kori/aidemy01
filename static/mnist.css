@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+header {
+    background-color: #367cb5;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    color: #7c4444;
+    line-height: 2em;
+    margin: 15px 15px;
+}
+
+.main {
+    height: 370px;
+}
+
+h2 {
+    color: #444444;
+    margin: 90px 0px;
+    text-align: center;
+}
+span{
+    color:brown
+}
+
+p {
+    color: #444444;
+    margin: 70px 0px 30px 0px;
+    text-align: center;
+}
+
+.answer {
+    color: #444444;
+    margin: 70px 0px 30px 0px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+footer {
+    background-color: #F7F7F7;
+    text-align: center;
+    height: 50px;
+    margin: -8px;
+    position: relative;
+}
+
+small {
+    margin: 15px 25px;
+    position: absolute;
+    left: calc(50% - 90px);
+    bottom: calc(50% - 25px);
+}

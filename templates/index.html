@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/mnist.css">
+    <title>mnist</title>
+</head>
+<body>
+    <header>   
+        <h1>画像数字の識別</h1>
+    </header>
+
+    <div class="main">    
+        <h2> AIがあなたの送信した<span>画像の数字</span>を識別します</h2>
+        <p>画像を送信してください</p>
+        <form method="POST" enctype="multipart/form-data">
+            <input class="file_choose" type="file" name="file">
+            <input class="btn" value="送信ボタン" type="submit">
+        </form>
+        <div class="answer">{{答え}}</div>
+        <footer>
+            <small>&copy; 2022 Aidemy, inc</small>   
+        </footer>
+    </div>
+</body>
+</html>
